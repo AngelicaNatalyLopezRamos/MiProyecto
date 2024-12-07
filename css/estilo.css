@@ -1,0 +1,62 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2020/01/27/09/17/landscape-4796735_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#menu{
+    text-align: center;
+    background-color: rgb(231, 124, 190);
+    margin-left: 25%;
+    margin-right: 25%; 
+
+}
+h2{
+    background-color: rgb(216, 160, 186);
+    margin-top: 2%;
+}
+#image{
+    
+    margin-top: 1%;
+    height: 20%;
+    width: 20%;
+ 
+}
+#image2{
+    
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 20%;
+    width: 20%;
+}
+div{
+    text-align:center;
+}
+.galeria1{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: auto;
+}
+
+.galeria2{
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 50%;
+}
+
+.galeria3{
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 50%;
+}
+
+.conejo{
+   position: relative;
+}
+.conejo img{
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+ }
+ .conejo img.top:hover{
+    opacity: 0;
+    
+ }
